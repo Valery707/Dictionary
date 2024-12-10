@@ -1,0 +1,16 @@
+print('     Словарь')
+my_dict = {'Вася':1812,'Федя':1914,'Степа':1941}
+print('Dict:',my_dict)
+print('Value:',my_dict['Вася'])
+print('Not existing Value:',my_dict.get('Вова'))
+my_dict.update({'Вова':1917,'Иосиф':1937})
+#print(my_dict)
+a = my_dict.pop('Иосиф')
+print('Deleted value:',a)
+print('Modified dict:',my_dict)
+print('     Множество')
+my_set = {1,2,2,'Василий','Василий','Алибабаевич',(5,7,1)}
+print('my_set:',my_set)
+my_set.add(5)
+my_set.discard(2)
+print('Modified: ',my_set)
